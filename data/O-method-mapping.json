@@ -1,0 +1,461 @@
+{
+  "X_used": 805,
+  "approach": "force X=805 via Q() patch + Proxy set-trap on O (capture at memoization, member.length===0)",
+  "decodeClean": true,
+  "loadErrorFirstLine": null,
+  "capturedO": true,
+  "totalMembers": 241,
+  "stringMemberCount": 216,
+  "numericMemberCount": 25,
+  "unresolvedCount": 5,
+  "forcedSinks": {
+    "peekResolved": {
+      "mP": "window",
+      "XP": "webkit",
+      "EN": "messageHandlers",
+      "UN": "setSignal",
+      "gN": "postMessage",
+      "rF": "JSBridge",
+      "QP": "toString",
+      "cN": "length",
+      "NO": "",
+      "NF": "concat",
+      "EP": "setRes",
+      "VO": "d",
+      "LN": "String",
+      "DP": "android",
+      "lP": "forEach",
+      "VP": "slice",
+      "hN": "indexOf",
+      "QN": "decodeURIComponent"
+    },
+    "peekErrors": {}
+  },
+  "genericResolvedCount": 39,
+  "genericResolved": {
+    "GP": {
+      "value": "=",
+      "via": "peek(O.GP(V2,Ek) | Nw.push(dk))"
+    },
+    "ZO": {
+      "value": "GKKDZZgKgg",
+      "via": "peek(O.ZO.apply(null,[I4,lw(J2)]) | Nw.push(D4))"
+    },
+    "BO": {
+      "value": "GRDWkK9RyRy",
+      "via": "peek(O.BO(gl,l2) | Nw.push(D4))"
+    },
+    "fO": {
+      "value": "GRkWRfgKRfW",
+      "via": "peek(O.fO.apply(null,[C4,Gw]) | Nw.push(D4))"
+    },
+    "TO": {
+      "value": "GRy9DWD9gyK",
+      "via": "peek(O.TO(d4,lw(Q4)) | Nw.push(D4))"
+    },
+    "MO": {
+      "value": "GyfRRRRyggy",
+      "via": "peek(O.MO.call(null,X4,lw(T4)) | Nw.push(D4))"
+    },
+    "sO": {
+      "value": "charCodeAt",
+      "via": "peek(O.sO(pl,-Qw) | Nw.push(D4))"
+    },
+    "QO": {
+      "value": "create",
+      "via": "peek(O.QO.call(null,n2,Dm) | Nw.push(Vd))"
+    },
+    "AO": {
+      "value": "encodeURIComponent",
+      "via": "peek(O.AO(tw,xw) | Nw.push(Ww))"
+    },
+    "xO": {
+      "value": "unescape",
+      "via": "peek(O.xO.call(null,Sw,lw(Bw)) | Nw.push(Ww))"
+    },
+    "ZN": {
+      "value": "Q\u0005\u0012Hl/&",
+      "via": "peek(O.ZN(Il,rm) | Nw.push(xm))"
+    },
+    "pO": {
+      "value": "Array",
+      "via": "peek(O.pO(A2,S4) | Nw.push(D4))"
+    },
+    "TN": {
+      "value": ".R=#\f:",
+      "via": "peek(O.TN(lw(h6),Pw))"
+    },
+    "IP": {
+      "value": "Gf",
+      "via": "peek(O.IP.call(null,Gw,hl) | Nw.push(QX))"
+    },
+    "WO": {
+      "value": "GkWZ9kKDgff",
+      "via": "peek(O.WO(p4,C4) | Nw.push(D4))"
+    },
+    "hO": {
+      "value": "default",
+      "via": "peek(O.hO(j0,pl) | Nw.push(Vd))"
+    },
+    "WN": {
+      "value": "sjs_r",
+      "via": "peek(O.WN(Am,H4) | Nw.push(xm))"
+    },
+    "jP": {
+      "value": "\n",
+      "via": "peek(O.jP(rG,xG,S4) | Nw.push(QX))"
+    },
+    "zO": {
+      "value": "GkkDZRWZZD",
+      "via": "peek(O.zO(A4,r4,pl) | Nw.push(D4))"
+    },
+    "UO": {
+      "value": "6",
+      "via": "peek(O.UO.apply(null,[jG,K0,c4]) | Nw.push(nd))"
+    },
+    "rO": {
+      "value": "fromCharCode",
+      "via": "peek(O.rO(W2,Z2,C4) | Nw.push(D4))"
+    },
+    "CN": {
+      "value": "j",
+      "via": "peek(O.CN(Hl,T6,R2) | Nw.push(hj))"
+    },
+    "dO": {
+      "value": "object",
+      "via": "peek(O.dO(X6(X6({})),q4,g4) | Nw.push(Vd))"
+    },
+    "EO": {
+      "value": "string",
+      "via": "peek(O.EO.call(null,X6(X6(kl)),TI,dl) | Nw.push(Vd))"
+    },
+    "hP": {
+      "value": "substring",
+      "via": "peek(O.hP.call(null,Il,bl,Hl) | Nw.push(Ml))"
+    },
+    "wP": {
+      "value": "\u000f",
+      "via": "peek(O.wP(g4,lw(cm)))"
+    },
+    "RP": {
+      "value": "\u0019",
+      "via": "peek(O.RP(B4,lw(Cw)))"
+    },
+    "tO": {
+      "value": "GRWffKRRZRy",
+      "via": "peek(O.tO.apply(null,[v4,U2]) | Nw.push(D4))"
+    },
+    "SO": {
+      "value": "GZ9KkDZ9gk",
+      "via": "peek(O.SO(E4,P2) | Nw.push(D4))"
+    },
+    "KO": {
+      "value": "GkRyZk9fkRR",
+      "via": "peek(O.KO.apply(null,[K4,z4]) | Nw.push(D4))"
+    },
+    "KN": {
+      "value": "constructor",
+      "via": "peek(O.KN(Hw,Bm) | Nw.push(I1))"
+    },
+    "qO": {
+      "value": "pow",
+      "via": "peek(O.qO(hl,p2) | Nw.push(D4))"
+    },
+    "zN": {
+      "value": "set",
+      "via": "peek(O.zN(d6,tm) | Nw.push(I1))"
+    },
+    "nP": {
+      "value": "split",
+      "via": "peek(O.nP(Sw,hk) | Nw.push(dk))"
+    },
+    "YP": {
+      "value": "8N?",
+      "via": "peek(O.YP(h4,lw(Em)))"
+    },
+    "W": {
+      "value": "GWfyKfgWRK",
+      "via": "peek(O.W(c4,lw(f4),kl,M4,g4) | Nw.push(D4))"
+    },
+    "H": {
+      "value": "GRKRfDfRykk",
+      "via": "peek(O.H.call(null,lw(f4),Hl,s4,M4) | Nw.push(D4))"
+    },
+    "Z": {
+      "value": "Gk999fKkWZR",
+      "via": "peek(O.Z(Hl,W4,kl,U4,ww,lw(f4)) | Nw.push(D4))"
+    },
+    "x": {
+      "value": "GRKRkKDyDyZ",
+      "via": "peek(O.x(Hl,Z4,S4,B4,t4,lw(f4)) | Nw.push(D4))"
+    }
+  },
+  "genericErrors": {},
+  "mapping": {
+    "SN": "5",
+    "BN": "3",
+    "tN": "8",
+    "xN": "2",
+    "AN": "6",
+    "rN": "9",
+    "bN": ".",
+    "HN": "0",
+    "pN": "7",
+    "sN": "1",
+    "qN": "e",
+    "LO": "4",
+    "cN": "length",
+    "vN": "G",
+    "fN": "parseFloat",
+    "NO": "",
+    "OO": "charAt",
+    "FO": "push",
+    "YO": "m",
+    "U": "c",
+    "VO": "d",
+    "lO": "r",
+    "mO": "t",
+    "gO": "n",
+    "RO": "o",
+    "CO": "p",
+    "vO": "s",
+    "PO": "i",
+    "E": "l",
+    "JO": "exports",
+    "GO": "undefined",
+    "DO": "Symbol",
+    "z": "toStringTag",
+    "nO": "Object",
+    "wO": "defineProperty",
+    "kO": "value",
+    "jO": "Module",
+    "IO": "__esModule",
+    "NF": "concat",
+    "OF": "cf-sdk-1-00-0.js",
+    "NN": "sendChallengeResponseIos",
+    "MN": "prototype",
+    "cO": "hasOwnProperty",
+    "T": "enumerable",
+    "K": "get",
+    "FF": "buildPostDataIos",
+    "JF": "delimiter",
+    "PF": "getWeekStr",
+    "YF": "buildPostDataAndroid",
+    "VF": "sendChallengeResponseAndroid",
+    "RF": "os",
+    "ON": "startTime",
+    "nF": "systemVersion",
+    "wF": "model",
+    "lF": "deviceHardwareType",
+    "GF": "appIdentifier",
+    "FN": "deviceId",
+    "DF": "cpuTypeAndSybType",
+    "kF": "kernalOsRelease",
+    "jF": "kernalOsVersion",
+    "IF": "deviceModel",
+    "mF": "hardwareModel",
+    "XF": "hardwareMemSize",
+    "dF": "cpuNumber",
+    "JN": "cpuInfo",
+    "QF": "Gk9",
+    "PN": "hardwareEpochTime",
+    "YN": "kernalMaxProc",
+    "hF": "kernalMaxFiles",
+    "EF": "kernalMaxNodes",
+    "gF": "KernalSecurityLevel",
+    "UF": "kernalPosixVersion",
+    "VN": "maxProcessForUid",
+    "cF": "kernalCacheUUID",
+    "CF": "buildId",
+    "vF": "host",
+    "TF": "sdkVersion",
+    "fF": "androidId",
+    "MF": "deviceProperties",
+    "KF": "mountFileProperties",
+    "zF": "screenHeight",
+    "WF": "screenWidth",
+    "ZF": "carrierName",
+    "SF": "cpuABI",
+    "BF": "adbStatus",
+    "tF": "qemuProperties",
+    "xF": "isDebugEnabled",
+    "AF": "defaultBuildFingerPrintProperties",
+    "bF": "w1",
+    "HF": "w2",
+    "pF": "w3",
+    "sF": "w4",
+    "qF": "w5",
+    "LJ": "w6",
+    "RN": "w7",
+    "NJ": "w8",
+    "OJ": "w9",
+    "nN": "w10",
+    "FJ": "w11",
+    "JJ": "w12",
+    "PJ": "w13",
+    "wN": "w14",
+    "lN": "w15",
+    "YJ": "w16",
+    "VJ": "w17",
+    "RJ": "w18",
+    "nJ": "w19",
+    "wJ": "w20",
+    "GN": "GkR",
+    "lJ": "w21",
+    "GJ": "w22",
+    "DJ": "GW",
+    "kJ": "w23",
+    "jJ": "w24",
+    "XO": "GK",
+    "IJ": "w25",
+    "mJ": "w26",
+    "XJ": "w27",
+    "dJ": "w28",
+    "QJ": "w29",
+    "DN": "w30",
+    "kN": "w31",
+    "jN": "w32",
+    "hJ": "w33",
+    "EJ": "w34",
+    "gJ": "w35",
+    "UJ": "w36",
+    "cJ": "w37",
+    "CJ": "w38",
+    "vJ": "w39",
+    "TJ": "w40",
+    "fJ": "G9",
+    "MJ": "w41",
+    "KJ": "w42",
+    "IN": "w43",
+    "zJ": "w44",
+    "WJ": "w45",
+    "ZJ": "w46",
+    "SJ": "w47",
+    "BJ": "w48",
+    "tJ": "w49",
+    "xJ": "w50",
+    "AJ": "w51",
+    "rJ": "w52",
+    "bJ": "w53",
+    "HJ": "w54",
+    "mN": "GkW",
+    "XN": "Gy",
+    "pJ": "GkK",
+    "sJ": "Gky",
+    "qJ": "#",
+    "LP": "ios",
+    "mP": "window",
+    "EP": "setRes",
+    "NP": "Date",
+    "OP": "getFullYear",
+    "bO": "Math",
+    "LF": "floor",
+    "FP": "GKWyo9",
+    "HO": "ceil",
+    "JP": "document",
+    "dN": "getElementsByTagName",
+    "PP": "script",
+    "kP": "w",
+    "LN": "String",
+    "XP": "webkit",
+    "EN": "messageHandlers",
+    "dP": "jsBridge",
+    "gN": "postMessage",
+    "UN": "setSignal",
+    "rF": "JSBridge",
+    "QP": "toString",
+    "DP": "android",
+    "lP": "forEach",
+    "VP": "slice",
+    "hN": "indexOf",
+    "QN": "decodeURIComponent",
+    "GP": "=",
+    "ZO": "GKKDZZgKgg",
+    "BO": "GRDWkK9RyRy",
+    "fO": "GRkWRfgKRfW",
+    "TO": "GRy9DWD9gyK",
+    "MO": "GyfRRRRyggy",
+    "sO": "charCodeAt",
+    "QO": "create",
+    "AO": "encodeURIComponent",
+    "xO": "unescape",
+    "ZN": "Q\u0005\u0012Hl/&",
+    "pO": "Array",
+    "TN": ".R=#\f:",
+    "IP": "Gf",
+    "WO": "GkWZ9kKDgff",
+    "hO": "default",
+    "WN": "sjs_r",
+    "jP": "\n",
+    "zO": "GkkDZRWZZD",
+    "UO": "6",
+    "rO": "fromCharCode",
+    "CN": "j",
+    "dO": "object",
+    "EO": "string",
+    "hP": "substring",
+    "wP": "\u000f",
+    "RP": "\u0019",
+    "tO": "GRWffKRRZRy",
+    "SO": "GZ9KkDZ9gk",
+    "KO": "GkRyZk9fkRR",
+    "KN": "constructor",
+    "qO": "pow",
+    "zN": "set",
+    "nP": "split",
+    "YP": "8N?",
+    "W": "GWfyKfgWRK",
+    "H": "GRKRfDfRykk",
+    "Z": "Gk999fKkWZR",
+    "x": "GRKRkKDyDyZ"
+  },
+  "numericMembers": {
+    "GK": 8,
+    "GRy9DWD9gyK": 2453635748,
+    "GRkWRfgKRfW": 2162078206,
+    "GyfRRRRyggy": 4022224774,
+    "GWfyKfgWRK": 604807628,
+    "GkRyZk9fkRR": 1249150122,
+    "Gk999fKkWZR": 1555081692,
+    "GRKRkKDyDyZ": 2821834349,
+    "GkkDZRWZZD": 113926993,
+    "GkWZ9kKDgff": 1695183700,
+    "GRKRfDfRykk": 2820302411,
+    "GKKDZZgKgg": 883997877,
+    "GZ9KkDZ9gk": 958139571,
+    "GRDWkK9RyRy": 2361852424,
+    "GRWffKRRZRy": 2600822924,
+    "Gk9": 15,
+    "GkR": 12,
+    "GW": 6,
+    "G9": 5,
+    "GkW": 16,
+    "Gy": 4,
+    "GkK": 18,
+    "Gky": 14,
+    "GKWyo9": 86400000,
+    "Gf": 0
+  },
+  "unresolved": [
+    {
+      "key": "ZN",
+      "reason": "decoded-to-nonprintable (likely wrong Nw ctx): \"Q\\u0005\\u0012Hl/&\""
+    },
+    {
+      "key": "TN",
+      "reason": "decoded-to-nonprintable (likely wrong Nw ctx): \".R=#\\f:\""
+    },
+    {
+      "key": "jP",
+      "reason": "decoded-to-nonprintable (likely wrong Nw ctx): \"\\n\""
+    },
+    {
+      "key": "wP",
+      "reason": "decoded-to-nonprintable (likely wrong Nw ctx): \"\\u000f\""
+    },
+    {
+      "key": "RP",
+      "reason": "decoded-to-nonprintable (likely wrong Nw ctx): \"\\u0019\""
+    }
+  ]
+}

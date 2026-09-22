@@ -1,0 +1,95 @@
+site_name: "Akamai BMP Mobile SDK - Reverse Engineering Documentation"
+site_url: "https://itsmestale.github.io/akamai-bmp/"
+site_description: "Complete reverse engineering documentation for Akamai Bot Manager Premier mobile SDK sensor generation"
+site_author: "itsmestale"
+
+repo_name: "itsmestale/akamai-bmp"
+repo_url: "https://github.com/itsmestale/akamai-bmp"
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+    - toc.follow
+    - search.suggest
+    - search.highlight
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - mermaid2
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - "Part 1: Understanding BMP":
+    - "System Overview": part1-understanding/01-overview.md
+    - "Data Flow": part1-understanding/02-data-flow.md
+    - "Sensor Format": part1-understanding/03-sensor-format.md
+    - "Challenge JS VM": part1-understanding/04-challenge-js.md
+    - "pureJsSignal": part1-understanding/05-purejs-signal.md
+    - "Server Validation": part1-understanding/06-server-validation.md
+  - "Part 2: RE Methodology":
+    - "Journey Overview": part2-methodology/07-journey-overview.md
+    - "Static Analysis": part2-methodology/08-static-analysis.md
+    - "Frida Breakthrough": part2-methodology/09-frida-breakthrough.md
+    - "Differential Testing": part2-methodology/10-differential-testing.md
+    - "Final Verification": part2-methodology/11-final-verification.md
+    - "Lessons Learned": part2-methodology/12-lessons-learned.md
+  - "Part 3: The Generator":
+    - "Quick Start": part3-generator/13-quickstart.md
+    - "Generator Internals": part3-generator/14-generator-internals.md
+    - "Sensor Server": part3-generator/15-sensor-server.md
+    - "API Client": part3-generator/16-api-client.md
+    - "Frida Scripts": part3-generator/17-frida-scripts.md
+    - "Device Profiles": part3-generator/18-device-profiles.md
+  - "Part 4: Reference":
+    - "Field Reference": part4-reference/19-field-reference.md
+    - "Encryption": part4-reference/20-encryption.md
+    - "Algorithms": part4-reference/21-algorithms.md
+    - "Cookie & TLS": part4-reference/22-cookie-policy.md
+    - "Version Resilience": part4-reference/23-version-resilience.md
+    - "Glossary": part4-reference/24-glossary.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/itsmestale

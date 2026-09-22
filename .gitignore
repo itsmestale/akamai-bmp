@@ -1,0 +1,8 @@
+# Temp QA / fact-check artifacts
+fact-check-raw.md
+fact-check-report.md
+fc-result.json
+
+# Python
+__pycache__/
+*.pyc
